@@ -23,6 +23,7 @@ public class IndexOfInteger {
                         System.out.println(numberTwo + " index is at: " + i);
                     }
                 }
+                break;
             }
         }
     }
