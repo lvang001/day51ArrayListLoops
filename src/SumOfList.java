@@ -17,7 +17,7 @@ public class SumOfList {
                 for(int i = 0; i < list.size(); i++) {
                     sum = sum + list.get(i);
                 }
-                System.out.println("sum of all numbers are: " + sum);
+                System.out.println("sum of all numbers is: " + sum);
                 break;
             }
 

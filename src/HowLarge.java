@@ -6,24 +6,21 @@ public class HowLarge {
     }
 
     public static void Large () {
-              Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         ArrayList<String> items = new ArrayList<String>();
-        
-        
-        while(true) {
-            System.out.println("Enter a strings:");
-                items.add(s.nextLine());
 
-                if(s.nextLine().isEmpty()) {
+        System.out.println("Enter a string:");
+        while(true) {
+            
+                String input = s.nextLine();
+                items.add(input);
+
+                if(input.isBlank()) {
                     System.out.println(items);
-        
-                System.out.println("The amount of items in the list was " + items.size());
-                break;
-                }
-                
-                
+                    System.out.println("The amount of items in the list was " + items.size());
+                    break;
+                }           
         }
-    
     }
 }
